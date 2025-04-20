@@ -1,0 +1,239 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_productId",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_serialNumber",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_barcode",
+						"type": "string"
+					}
+				],
+				"name": "addProduct",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "fakeReports",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "productId",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "sellerName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "sellerDetails",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "getFakeReport",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getFakeReportsCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "products",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "productId",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "serialNumber",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "barcode",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "isAuthentic",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_productId",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_sellerName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_sellerDetails",
+						"type": "string"
+					}
+				],
+				"name": "reportFake",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_barcode",
+						"type": "string"
+					}
+				],
+				"name": "verifyProduct",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/test.sol": "VoltVerify"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/test.sol": {
+			"keccak256": "0x77f9c218d9be00990e063188fff95e18b29d5c00dc7eb50f9addbceea6486eba",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8ad58fc2e2c68ae26fb5db3aaa72dc53ef4f2cca4c4c5114cad96176e60d10ef",
+				"dweb:/ipfs/QmfSS6GNnjPso2fJB9iNiAoyt67HtxTSW8vxwgZ3bPn8Sj"
+			]
+		}
+	},
+	"version": 1
+}
